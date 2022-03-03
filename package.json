@@ -1,0 +1,29 @@
+{
+  "name": "losnietos-api",
+  "version": "1.0.0",
+  "description": "api de los nietos",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echiarlone/losNietos-api.git"
+  },
+  "author": "emilio chiarlone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/echiarlone/losNietos-api/issues"
+  },
+  "homepage": "https://github.com/echiarlone/losNietos-api#readme",
+  "dependencies": {
+    "D": "^1.0.0",
+    "eslint": "^8.10.0",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
